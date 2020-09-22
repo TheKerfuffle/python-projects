@@ -18,7 +18,7 @@ There won't be a lot of information here on exactly what you should do. There ar
 
 Working with a new language means you'll need some new tools. Start by figuring out what you need to install to get started. When doing development on a Mac, Homebrew is a good starting point. 
 
-Search the web for how to get setup with your assigned language __using Homebrew.__
+Search the web for how to get setup with python3 __using Homebrew.__
 
 > Note: Homebrew is nice because it allows you to keep the version of languages you use for development separate from what might be installed by your OS. Many languages, including python, also provide tools that help you manage the version of the language used across different projects. (Check-out `pyenv` for python).
 
