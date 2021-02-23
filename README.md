@@ -39,8 +39,6 @@ Take some time to look into how to buff it up a bit by writing a function. Can y
 
 ## Programming
 
-After you are a bit familiar with the basic syntax, solve one of our "whiteboard" problems (FizzBuzz, reverse a string or array, LeapYear, etc.) in your new language! Do this on your computer, not on a whiteboard!
-
 Here is a list of things you should focus on: 
 
 1. Variables & types :
@@ -56,6 +54,11 @@ Here is a list of things you should focus on:
     - operators - math, logical (and/or/not)
 
 4. Pull things all together in one problem. Solve a whiteboard problem! (FizzBuzz, reverse a string or array, LeapYear, etc.) You can find our old whiteboard challenges in the syllabus repository!
+
+## Put it together
+
+After you are a bit familiar with the basic syntax, solve one of our "whiteboard" problems (FizzBuzz, reverse a string or array, LeapYear, etc.) in your new language! Do this on your computer, not on a whiteboard!
+
 
 
 ### GitHub Repo
