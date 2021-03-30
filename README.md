@@ -14,8 +14,6 @@ There won't be a lot of information here on exactly what you should do. There ar
 - document and share what you've learned in a GitHub readme
 
 
-# Exploring Python
-
 ## Setup 
 
 MacOS already has a version of python installed. However it is likely a version of python 2 and the students will want to be working with python 3. 
