@@ -14,14 +14,49 @@ There won't be a lot of information here on exactly what you should do. There ar
 - document and share what you've learned in a GitHub readme
 
 
-## Install
+# Exploring Python
 
-Working with a new language means you'll need some new tools. Start by figuring out what you need to install to get started. When doing development on a Mac, Homebrew is a good starting point. 
+## Setup 
 
-Search the web for how to get setup with python3 __using Homebrew.__
+MacOS already has a version of python installed. However it is likely a version of python 2 and the students will want to be working with python 3. 
 
-> Note: Homebrew is nice because it allows you to keep the version of languages you use for development separate from what might be installed by your OS. Many languages, including python, also provide tools that help you manage the version of the language used across different projects. (Check-out `pyenv` for python).
+### Homebrew Python Install 
 
+Install python version 3:
+
+```
+brew install python
+```
+
+> If you get the following `Error: Permission denied @ dir_s_mkdir - /usr/local/Frameworks`, it can be fixed by doing the following:
+>
+>
+>- `sudo mkdir /usr/local/Frameworks`
+>- `sudo chown $USER /usr/local/Frameworks`
+
+
+If `sudo` isn't allowed, you can also try:
+
+>install -d -o $(whoami) -g admin /usr/local/Frameworks
+
+Then,
+
+>brew reinstall python
+
+---
+
+## Running
+
+Homebrew sets up python 3 as a separate executable, which keeps it from conflicting with the MacOS version. That's awesome, but means instead of using `python` and `pip` you need to run `python3` and `pip3`.
+
+`Pip` is the package manager for Phython, like `npm` for Node.
+
+Check that they both work:
+
+```
+python3 --version
+pip3 --version
+```
 
 ## Hello World
 
